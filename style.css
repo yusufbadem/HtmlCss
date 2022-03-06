@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.header{
+    margin: 38px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#navbar{
+    color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+#navbar ul{
+    margin: 27px;
+    list-style-type: none;
+    display: flex;
+    padding: 7px;
+    font-size: 15px;
+}
+
+#navbar ul li{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 8px 0;
+    opacity: 0.7;
+}
+
+.header span{ 
+    color: #2eca7f;
+}
+
+.under-class{
+    margin: 0px auto;
+    background-color: #2eca7f;
+    max-width: 1030px;
+    height: 300px;
+    display:flex;
+    justify-content:space-around;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgb(138, 137, 137);
+    position: relative;
+    top: 100px;
+}
+
+.under-white{
+    margin: 0px auto;
+    background-color: white;
+    max-width: 1030px;
+    min-height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgb(156, 154, 154);
+    position: relative;
+    top:100px;
+    z-index: -1;
+    }
+
+    #foto img{
+        max-width: 274px;
+        max-height: 274px;
+        border: 2px white solid;
+        position: absolute;
+        left: 10%;
+        top:45px;
+    }
+
+    .under-class .yazi{
+        position:absolute;
+        color: rgb(253, 252, 252);
+        right: 20%;
+        top: 80px;
+    }
+
+    .social{
+        text-align: center;
+    }
+
+    .social a{
+        font-size: 20px;
+        color: gray;
+        padding: 8px;
+        background-color:white ;
+        border-radius: 25px;
+    }
+
+    .aboutP{
+        position:absolute;
+        line-height: 23px;
+        max-width: 400px;
+        left: 10%;
+        top: 20px;
+    }
+
+    #download{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 21px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.3);
+        border-radius: 10px;
+    }
+
+    .info ul{
+        height: 180px;
+        right: 20%;
+        list-style-type: none;
+        margin: 72px 0px 0px 350px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+
+    .info ul li{
+        top:35px;
+        display: flex;
+        flex-direction:row;
+    }
+    .tittle{
+        display:inline-block;
+        width: 120px;
+        opacity: 0.8;
+    }
+    .value{
+        display: inline-block;
+        color: #9e9e9e;
+    }
+     #navbar i{display: none;} 
+
+     .footer{
+        
+        display: flex;
+        text-align: center;
+
+     }
